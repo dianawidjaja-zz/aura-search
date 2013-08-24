@@ -5,11 +5,11 @@ with content in the index. But instead of using a session cookie, the search ter
 ## Using the Search Component
 Prerequisites: You must already be using the [Aura Framework](https://github.com/forcedotcom/aura).
 
-1. Copy the `search` and `searchResultsTopic` into the `auradocs` namespace.
+1. Copy the `search` and `searchResultsTopic` folders into the `auradocs` namespace.
  
 2. In `welcomeTopic.cmp`, add `<auradocs:seach />` before the `ui:block` component.
 
-3. Start using the search component by searching for a keyword and press enter. 
+3. Start using the search component by entering a keyword and press enter. 
 
 ![Search in welcomeTopic](img/searchField.png)
 
